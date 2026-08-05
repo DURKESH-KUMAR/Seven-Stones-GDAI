@@ -1,0 +1,32 @@
+:root {
+}
+
+.button-blue {
+    text-overflow: clip;
+    white-space: normal;
+    -unity-text-align: middle-center;
+    align-self: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 31, 255);
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    width: 88%;
+    height: 41px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.button-blue:hover {
+    scale: 1.1 1.1;
+}
+
+.button-blue:active {
+    background-color: rgb(0, 165, 255);
+}
