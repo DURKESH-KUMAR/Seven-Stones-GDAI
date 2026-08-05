@@ -1,9 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ui:UXML
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:ui="UnityEngine.UIElements"
-    xmlns:uie="UnityEditor.UIElements"
-    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
->
-    
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="background-color: rgba(255, 0, 0, 0); width: 100%; height: 100%; align-items: center; align-content: auto; justify-content: flex-start; align-self: flex-start; flex-direction: column;">
+        <ui:VisualElement name="VisualElement" style="background-color: rgba(255, 0, 0, 0); width: 100%; height: 50%; align-items: auto; align-content: auto; justify-content: space-around; align-self: auto; flex-direction: row-reverse; flex-wrap: wrap;">
+            <ui:VisualElement name="Image_Robot" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Sprites/UI/UI%20Toolkit/Hyperspace%20-%20Robot%202.png?fileID=2800000&amp;guid=2706d0ae0e25a0646acf638cd3a5d3ac&amp;type=3#Hyperspace - Robot 2&quot;); background-size: 500px 100%; width: 100px; height: 542px; align-content: auto; justify-content: space-around;"/>
+            <ui:VisualElement name="Image_Robot" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Sprites/UI/UI%20Toolkit/Hyperspace%20-%20Floating.png?fileID=2800000&amp;guid=800dbadf313687949b521548e97eba27&amp;type=3#Hyperspace - Floating&quot;); background-size: 60% 100%; width: 191px; height: 539px; align-items: center; justify-content: space-between; align-self: flex-start; flex-direction: column;"/>
+        </ui:VisualElement>
+        <ui:VisualElement style="background-color: rgb(255, 255, 255); width: 100%; height: 50%; align-items: stretch; align-content: auto; justify-content: flex-start; align-self: center; flex-direction: column;">
+            <ui:VisualElement style="flex-grow: 1;">
+                <ui:Label text="Pluto" name="Title" style="-unity-text-align: upper-center; white-space: pre; text-overflow: clip; -unity-font-style: bold; font-size: 80px;"/>
+                <ui:Label text="everything in this data have been confused in the real world property releam &#10;in which this make a new generatation pluto in which the most data &#10;are privatised and disions are complex an incomplete " name="Paragraph" style="-unity-text-align: upper-center; white-space: pre; text-overflow: clip; -unity-font-style: bold; font-size: 40px;"/>
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1;">
+                <ui:Button text="Button" style="text-overflow: clip; white-space: normal; -unity-text-align: middle-center; align-self: center; font-size: 45px; color: rgb(255, 255, 255); background-color: rgb(0, 31, 255); border-top-left-radius: 24px; border-top-right-radius: 24px; border-bottom-right-radius: 24px; border-bottom-left-radius: 24px;"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
 </ui:UXML>
