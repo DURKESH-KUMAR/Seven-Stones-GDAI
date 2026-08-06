@@ -25,6 +25,8 @@
 
 .button-blue:hover {
     scale: 1.1 1.1;
+    transition-timing-function: ease-out-elastic;
+    transition-duration: 0.5s;
 }
 
 .button-blue:active {

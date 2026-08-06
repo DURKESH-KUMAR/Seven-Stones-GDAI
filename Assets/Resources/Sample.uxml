@@ -14,5 +14,6 @@
                 <ui:Button text="Button" class="button-blue"/>
             </ui:VisualElement>
         </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; width: 100%; height: 335px; position: absolute; flex-direction: column; top: 0;"/>
     </ui:VisualElement>
 </ui:UXML>
